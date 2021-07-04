@@ -35,7 +35,13 @@ RSpec.describe Animal do
   it 'gains weight' do
     animal = Animal.new("Sea Otter", 10, 25)
 
-    expect(animal.feed!(2)).to eq("12 pounds")
+    animal.feed!(2)
+
+    expect(animal.weight).to eq("12 pounds")
+
+    animal.feed!(1)
+
+    expect(animal.weight).to eq("13 pounds")
   end
 
 end

@@ -9,10 +9,10 @@
 * Submit a pull request from your repository to the turingschool-examples repository
 * Make sure to put your name in your PR!
 
-## Iteration 1
+## Iteration 1 
 
 Starting with the existing tests, and then use TDD to create an `Animal` class that
-responds to the following interaction pattern: 
+responds to the following interaction pattern:
 
 (Where you see something like `#<Animal:0x00007fccd30375f8...>`, this is
 shorthand for a full animal object with that object identifier - we have
@@ -165,7 +165,7 @@ pry(main)> zoo.details
 Use TDD to update your `Zoo` class so that it responds to the following
 interaction pattern:
 
-Note: 
+Note:
 * Sorted by weight should be from heaviest to lightest.
 * Animal hash generates a hash where the key is the first letter of the kind of animal
 and the value is an array of animals that start with that letter of the alphabet
